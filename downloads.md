@@ -11,4 +11,10 @@ The easiest way to download AyuGram is to go to our chat and select a dedicated 
 - [Desktop (Windows)](https://t.me/ayugramchat/12788)
 - [Desktop (Arch Linux)](https://aur.archlinux.org/packages?O=0&K=ayugram) - choose wisely and check the sources.
 
+macOS version could be downloaded from [Releases](https://github.com/AyuGram/AyuGramDesktop/releases) tab on GitHub.
+
 Linux users have to compile it manually.
+
+!!!WARNING
+There's no public AyuGram iOS version at the moment. Don't get fooled by scammers.
+!!!

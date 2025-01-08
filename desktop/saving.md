@@ -4,6 +4,10 @@ icon: database
 
 # Message Saving
 
-At the moment, a Desktop version of AyuGram saves deleted messages in a **memory**. It means they'll disappear after you restart the client.
+AyuGram Desktop saves deleted messages in a **memory + database**.
 
-As for edits history, it's stored in `tdata/ayudata.db`, so you'll be able to view history even **after restarting the client**.
+It means they'll disappear from chat once you restart the client, but could be found in three dots > "View Deleted".
+
+Edits history is stored in **database**.
+
+For now, only text saving is supported. No media at all.

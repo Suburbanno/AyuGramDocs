@@ -30,3 +30,11 @@ Lets you make sure that FCM is working.
 More about SQLite WAL **[here](https://www.sqlite.org/wal.html)**.
 
 *Shortly*, disabling this option lets you free some memory, **losing client stability**.
+
+## Reset alerts
+
+As the title says. Alerts: local premium notice, first launch, exteraGram chats.
+
+## Statistics
+
+For tracking database and memory state.

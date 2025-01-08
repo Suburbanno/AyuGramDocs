@@ -5,15 +5,13 @@ order: -1
 
 # AyuGram
 
-*The best that could be in the world of Telegram clients.*
+**AyuGram** is a Telegram client focusing on improving life with features that can't be implemented in regular clients.
 
-**AyuGram** is a Telegram client with a very pleasant features. Moreover, it has **Android** and **Desktop** versions.
+We have **Android** and **Desktop** versions.
 
 !!!WARNING
-It is extremely advanced client. You'll have to spend **a lot** of your time exploring all features.
+It is advanced client. You'll have to spend **a lot** of your time exploring all features.
 If you're not ready to waste your time on tests - better **stick up with another client**.
-
-Also, it consumes a lot of RAM, so if you have a potato phone - don't even try.
 !!!
 
 !!!
@@ -41,7 +39,7 @@ Android and Desktop versions are different enough. Check features in the separat
 
 ## Telegram Chat
 
-Yep, we have it. Join if you want.
+Yep, we have it. Better join to get notified about new versions.
 
 [t.me/ayugramchat](https://t.me/ayugramchat)
 

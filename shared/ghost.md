@@ -43,7 +43,7 @@ Be cautious. If you decide to open any other Telegram client with this feature t
 
 ## Read on Interact
 
-If you don't want others to know you're using a **Ghost Mode**, you can enable this option to read messages after certain actions and appear online for a second.
+If you don't want others to know you're using a **Ghost Mode**, you can enable this option to read messages after certain actions and appear online for a second
 
 ## Schedule Messages
 

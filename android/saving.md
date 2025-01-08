@@ -16,14 +16,14 @@ It has it's own **advantages**:
 
 Also, our saving system **automatically** tries to download files before they expire on the server, **giving more chances to save a media**. It's all stored in `Download/AyuGram/Saved Attachments` by default, *tho you can change it in the **AyuGram Preferences***. If you see it in a gallery - create file `.nomedia` in this folder manually.
 
-Database location - `/data/data/com.radolyn.ayugram/databases/ayu-data*`.
+Database location - `/data/data/PACKAGE/databases/ayu-data*`, where `PACKAGE` is `com.radolyn.ayugram`, `org.telegram.messenger` or `org.telegram.messenger.web` - all depending on what version you're using.
 
-**But it's hard to maintain. Really.** You can be sure that messages will be in an **AyuGram database**, but some of them won't be displayed for a reason how we load them in chats. Also, it may cause potato phones **lag/crash** when loading a big batch of deleted messages. So we suggest using it **if you really need it**.
+You can be sure that messages will be in an **AyuGram database**, but some of them won't be displayed for a reason how we load them in chats.
 
 You could use a "View Deleted" option in three dots to see a separate chat with only deleted messages, with ability to search through them.
 
 !!! A bit of technical information
-When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows. All these operations performed on UI thread, what makes it cause lags a bit. Or explode your phone if there's more than 1k messages.
+When you scroll the chat, Telegram loads messages from your cache in batches, 20-50 messages. **AyuGram** hooks into that process, and takes IDs of the last and the first messages, and loads deleted messages between them. There may be many of them - 10, 20, 100, 500, who knows.
 
 And, as you understand, there's a little problem - deleted messages between batches are not loaded.
 
@@ -59,4 +59,4 @@ As the title says. Automatically tries to download media after deletion, or crea
 
 ## Save in Bot Dialogs
 
-You want it to be **disabled**, since bots often edit/delete messages to make sure you get the best experience.
+You want it to be **disabled**, since bots often edit/delete messages.

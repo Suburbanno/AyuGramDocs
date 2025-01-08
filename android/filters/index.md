@@ -5,9 +5,9 @@ order: -3
 
 # Filters
 
-Filters **completely** hide messages from your view in chat. They're available in chats and channels.
+Filters **completely** hide messages from your view in chat. They're available for chats and channels.
 
-!!!
+!!!ANDROID
 *Technically*, it's still visible—0 opacity, it's full in width and 1px in height. But the media is not downloaded.
 
 Also, if the last message in the dialog is filtered, it's blurred in a dialog list.

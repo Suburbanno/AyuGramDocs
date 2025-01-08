@@ -7,12 +7,13 @@ order: -6
 
 Enjoy using **AyuGram**? Consider sending us a tip!
 
-Here's how you can do it:
+Here's how you can donate:
 
 - Using [Boosty](https://boosty.to/alexeyzavar) - any card and PayPal
 - Using cryptocurrency:
-  -  `TRpbajq38qU8joThgAfKJLyEPbNjzsdPJ1` (Tron + USDT)
+  -  `TRpbajq38qU8joThgAfKJLyEPbNjzsdPJ1` (TRX + USDT)
   -  `UQA4i8U8vP3mYUZSV3KqDQEHPwmhninEqCkkKc7BITQ652de` (TON)
   -  `bc1qdk6qq4mzq5yap3fpy0qau3246w3m3uwac9f0xd` (BTC)
   -  `0x405589857C8DFAb45B2027c68ad1e58877FDa347` (ETH)
-  -  `46nHfoh3xDrS5HmABubs72igHfczzqoMDKpUhfA5KhNehhf7bddqKnb4TkR9uaaPBwPxmov5r4iTUYcT7VgaFU72TRinpLS` (XMR)
+  -  `8ZHQpPxpsdRjsWoBcF1dmvRM5dB6zEhJ3jMBFZjYfyHs` (SOL)
+  -  `0x405589857C8DFAb45B2027c68ad1e58877FDa347` (POL)

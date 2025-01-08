@@ -18,23 +18,26 @@ Here's an example of AyuGram Filters export:
     {
       "id": "72885e24-5c22-56c8-8ee6-e9ab504dc4e5",
       "dialogId": null, // shared filter
-      "text": "some alt filtered text"
+      "text": "some alt filtered text",
+      "reversed": false, // if true, then would hide all meessages except matching ones
       "caseInsensitive": true,
-      "enabled": true,
+      "enabled": true
     },
     {
       "id": "72885e24-5c22-56c8-8ee6-e9ab504dc4e5",
       "dialogId": 1636445956,
-      "text": "some filtered text"
+      "text": "some filtered text",
+      "reversed": false,
       "caseInsensitive": false,
-      "enabled": true,
+      "enabled": true
     },
     {
       "id": "e57b81bf-19a8-573a-a13a-9fa1a2d8a7ee",
       "dialogId": 1877362358,
-      "text": "some filtered text"
+      "text": "some filtered text",
+      "reversed": false,
       "caseInsensitive": true,
-      "enabled": false,
+      "enabled": false
     }
   ],
   "removeExclusions": [
@@ -48,7 +51,7 @@ Here's an example of AyuGram Filters export:
     "1636445956": "@ReVanced_MMT",
     "1877362358": "@exteraForumRU"
   },
-  "version": 1
+  "version": 2
 }
 ```
 
@@ -72,7 +75,13 @@ Keys in this field could be either numbers or strings. Both work fine.
 
 ## `version`
 
-Specifies the AyuGram Filters export version. At the moment, it's `1`.
+Specifies the AyuGram Filters export version. At the moment, it's `2`.
+
+### Changelog
+
+#### v2
+
+- Added `reversed` option that allows to hide all messages except those matching the filter
 
 ## Notes
 

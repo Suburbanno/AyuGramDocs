@@ -5,7 +5,7 @@ order: -4
 
 # AyuGram for Desktop
 
-## Features
+## Features list (not full)
 
 - Ghost Mode
 - Messages History
@@ -13,6 +13,8 @@ order: -4
 - Ad-Free by Default
 - No Copy & Download Restrictions by Default
 - Local Telegram Premium
+- Fully Hide Messages from Blocked Users
+- Configurable Wide Messages
 - Up to 100 Recent Stickers
 - Show Peer ID in Profile
 - Mono Font Customization
@@ -33,3 +35,13 @@ order: -4
 - Message Shot
 - Material Design Switches with Smooth Animation
 - Fixed Message Tails for a Group of Text/Sticker/Rounded Messages
+- Channel Badge for those who send messages from channels
+- Rounded Stickers
+- Show Reactions Seconds
+- Jump to Beginning (proper implementation)
+- Stickerpack / Emojipack Author Retrieval (actually opens profile and gives username) 
+- Message Field Configuration
+- Taptic Engine Usage on macOS
+- Media Preview with Force Click on macOS
+
+And many more. It's hard to keep all things tracked, so download and explore on your own.
