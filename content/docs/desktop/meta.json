@@ -1,0 +1,12 @@
+{
+  "title": "Desktop",
+  "description": "AyuGram for Desktop",
+  "icon": "MonitorDown",
+  "root": true,
+  "pages": [
+    "index",
+    "---Features---",
+    "features/features",
+    "features/saving"
+  ]
+}

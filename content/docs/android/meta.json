@@ -1,0 +1,18 @@
+{
+  "title": "Android",
+  "description": "AyuGram for Android",
+  "icon": "Smartphone",
+  "root": true,
+  "pages": [
+    "index",
+    "---Features---",
+    "features/notifications",
+    "features/saving",
+    "features/filters",
+    "features/filtersFormat",
+    "features/forward",
+    "features/peek",
+    "features/debug",
+    "features/various"
+  ]
+}

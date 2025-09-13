@@ -1,0 +1,10 @@
+{
+  "title": "Shared",
+  "description": "Shared features",
+  "icon": "Network",
+  "root": true,
+  "pages": [
+    "features",
+    "ghost"
+  ]
+}

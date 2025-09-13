@@ -1,13 +1,42 @@
 # AyuGram Docs
 
-## How to contribute
+This repository contains the source code for the AyuGram docs.
 
-Clone it, run local [**retype** server](https://retype.com/guides/getting-started/) with `retype start`, make your changes and commit.
+## Getting Started
 
-## What to contribute
+How to get docs running on your local machine for development.
 
-Anything - it's just a plain text. You can add you personal experience to `Useful information` section, fix a typo, add link to your AyuGram Linux build, etc.
+### Prerequisites
 
-## License
+- [node](https://nodejs.org)
+- [bun](https://bun.sh/)
 
-MIT
+### Local Development
+
+1. Clone the repository. If you plan to make changes, create a fork first!
+
+```bash
+$ git clone https://github.com/AyuGram/AyuGramDocs
+```
+
+2. Install all required dependencies.
+
+```bash
+$ bun install
+```
+
+3. Start the development server.
+
+```bash
+$ bun dev
+```
+
+This will start a local development server and show you a link to local website. The majority of changes will
+be instantly reflected live without the need to restart the development server or reload the page in
+your browser. Edit away!
+
+### Building
+
+```bash
+$ bun run build
+```
